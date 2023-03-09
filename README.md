@@ -9,7 +9,7 @@ Will make Developer Survey using CLI and JavaScript
 ```
 - Node.js
 - NPM
-  - Inquirer
+- Inquirer
 - JavaScript
 - Terminal
 
@@ -66,11 +66,11 @@ This is the example of all answer is true.
 
 ![banner](./assets/noexperience.png)
 
-This is the example of question "experienced developer" selecting "no", it will skip the the "how many years of experience" question.
+This is the example of question "experienced developer" selecting "no", it will skip the "how many years of experience" question.
 
 ![banner](./assets/invalidemail.png)
 
-This is the example of type invalid email, it should contain @ and .(this is using Regex).
+This is the example of type invalid email, it should contain @ and . (this is using Regex).
 
 ![banner](./assets/invalidsalary.png)
 
