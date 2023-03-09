@@ -52,11 +52,12 @@ const questions = [
     message: "What is your desired salary?",
     type: "input",
     validate(answer) {
-      if (answer > 10000000) {
+      if (isNaN(Number(answer))) {
+        return "Please enter a valid answer!";
+      } else if (answer > 10000000) {
         return "Sorry that's out of our budget!";
-      }
-      if (answer < 10000000) {
-        return "please fill the right amount!";
+      } else if (answer < 10000000) {
+        return "Please enter a higher amount!";
       } else {
         return true;
       }
