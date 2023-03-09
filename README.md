@@ -2,10 +2,11 @@
 
 - Assignment Example for Week 7: Programming — JavaScript, Node.js, npm, TypeScript
 
-We will make Developer Survey using CLI and JavaScript
+Will make Developer Survey using CLI and JavaScript
 
 ## Prerequisites
 
+```
 - Node.js
 - NPM
   - Inquirer
@@ -51,3 +52,34 @@ You can use starter code from folder starter
   - Input type "number"
   - Validate salary more than zero
   - Only show if question 3 selected "yes"
+```
+
+## Screenshots
+
+![banner](./assets/w7.png)
+
+This is basically the scheme of this survey.
+
+![banner](./assets/alltrue.png)
+
+This is the example of all answer is true.
+
+![banner](./assets/noexperience.png)
+
+This is the example of question "experienced developer" selecting "no", it will skip the the "how many years of experience" question.
+
+![banner](./assets/invalidemail.png)
+
+This is the example of type invalid email, it should contain @ and .(this is using Regex).
+
+![banner](./assets/invalidsalary.png)
+
+This is the example of type invalid salary. Should be number.
+
+![banner](./assets/belowbudget.png)
+
+This is the example of type salary, but below the budget.
+
+![banner](./assets/outofbudget.png)
+
+This is the example of type salary, but out of the budget.
