@@ -56,8 +56,8 @@ const questions = [
         return "Please enter a valid answer!";
       } else if (answer > 10000000) {
         return "Sorry that's out of our budget!";
-      } else if (answer < 10000000) {
-        return "Please enter a higher amount!";
+      } else if (answer < 1000000) {
+        return "Please enter a valid amount!";
       } else {
         return true;
       }
